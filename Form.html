@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+	<style>
+	.Form_Enq{
+	color: rgb(204, 178, 178);
+  background-color: rgb(25, 114, 114);
+  text-align: center;
+margin: auto;
+padding-left: 32px;
+padding-right: 35px;
+padding-top: 20px;
+padding-bottom: 25px;
+width: 500px;
+border: 5px solid black;
+box-sizing: border-box;
+	}
+  legend{
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .div1{
+    float: left;
+    margin: 25px;
+    margin-top: 6px;
+  }
+  .div2{
+    float: left;
+    margin: 25px;
+    margin-top:1px;
+  }
+  .div3{
+    float: left;
+    margin: 25px;
+    margin-top: 2px;
+  }
+  .div4{
+    float: left;
+    margin: 25px;
+    margin-top: 2px;
+  }
+  .div5{
+    float: left;
+    margin: 25px;
+    margin-top: 2px;
+  }
+  .div6{
+    float: left;
+    margin: 25px;
+    margin-top: 2px;
+  }
+  .div7{
+    float: left;
+    margin: 25px;
+    margin-top: 2px;
+  }
+  .div8{
+    float: left;
+    margin: 25px;
+    margin-top: 2px;
+  }
+  .div9{
+    float: left;
+    margin: 25px;
+    margin-top: 2px;
+  }
+  .div10{
+    float: left;
+    margin: 25px;
+    margin-top: 2px;
+  }
+  .div11{
+    float: left;
+    margin: 25px;
+    margin-top: 2px;
+  }
+  .div12{
+    float: left;
+    margin: 25px;
+    margin-top: 2px;
+  }
+  .div13{
+    float: left;
+    margin: 25px;
+    margin-top: 2px;
+  }
+  .div14{
+    float: left;
+    margin: 25px;
+    margin-top: 2px;
+  }
+  .div15{
+    float: left;
+    margin: 25px;
+    margin-top: 2px;
+  }
+  .div16{
+    float: left;
+    margin: 25px;
+    margin-top: 2px;
+  }
+  .div17{
+    float: left;
+    margin: 25px;
+    margin-top: 2px;
+  }
+  .div18{
+    float: left;
+    margin: 25px;
+    margin-top: 2px;
+  }
+  .div19{
+    float: left;
+    margin: 25px;
+    margin-top: 2px;
+  }
+  .div20{
+    float: left;
+    margin: 25px;
+    margin-top: 2px;
+  }
+  
+
+</style>
+  </head>
+  <body>
+<div class="Form_Enq">
+<fieldset>
+  <legend><b>Enquiry</b></legend>
+  <form action="/action_page.php" target="_blank" method="post">
+
+    <div class="form1">
+      <div class="div1">
+      Name:
+      <input type="text" name="name" value="" placeholder="Please Enter name" required="" autofocus=""/><br /><br /></div>
+     <div class="div2"> Address:<textarea name="address"  maxlength="10" aria-sort="25" ></textarea><br /><br /></div>
+      <div class="div3">Gender:
+      <input type="radio" value="m" name="gender" checked="" />Male
+      <input type="radio" value="f" name="gender" />Female
+      <input type="radio" value="m" name="gender" />Other 
+<br/><br/></div>
+<div class="div4">Country:<select>
+<option>Please select Country..</option>
+<optgroup label="Asia">
+<option value="india">India</option>
+<option value="nepal">Nepal</option>
+</optgroup>
+<option value="chin">Chin</option>
+<option value="bhutan">Bhutan</option>
+<option value="rus">Rus</option>
+</select></div>
+<br/></br>
+<div class="div5">Your Hobbies:
+<input type="checkbox" name="Hobbies[]" checked=""/>Dancing
+<input type="checkbox" name="Hobbies[]"/>Singing
+<input type="checkbox" name="Hobbies[]"/>Playing<br/><br/></div>
+<div class="div6">Your Image:<input type="file" name="image"/><br/><br/></div>
+<div class="div7">Your Email:<input type="email" name="email"/><br/><br/></div>
+<div class="div8">Your Password:<input type="password" name="password"/><br/><br/></div>
+<div class="div9">Enter Your Age:<input type="number" name="number" min="1" max="18"/><br/><br/></div>
+<!--<div class="div10">This is MY Secret:<input type="hidden" name="hidden"/><br/><br/>-->
+<div class="div11">Date:<input type="date" name="date"/><br/><br/></div>
+<div class="div12">Date_Time:<input type="datetime-local" name=""/><br/><br/></div>
+<div class="div13">Time:<input type="time" name="time"/><br/><br/></div>
+<div class="div14">Month:<input type="month" name=""/><br/><br/></div>
+<div class="div15">Week:<input type="week" name=""/><br/><br/></div>
+<div class="div16">Range:<input type="range" name="range" min="10" max="70" value="90"/><br/><br/></div>
+<div class="div17">Your favourate Colour:<input type="color" name="color" value="#FF0000"/><br/><br/><br/></div>
+<div class="div20"><input type="submit" value="submit"/>
+<input type="reset" value="Reset"/><br/><br/></div>
+<!-- Calender Element-->
+  </form>
+</fieldset>
+</div>
+  </body>
+</html>
